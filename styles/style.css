@@ -42,7 +42,7 @@
 /* banner style */
 #banner {
   width: 85%;
-  margin: 0px auto;
+  margin: 50px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -83,4 +83,16 @@
   position: absolute;
   top: 25%;
   left: 56%;
+}
+
+/* companies style */
+#companies{
+  width: 85%;
+  margin: 100px auto;
+}
+.companies-img-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
 }

@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* navbar style */
+/* navbar section style */
 #navbar {
   width: 85%;
   margin: 50px auto;
@@ -39,7 +39,7 @@
   margin-left: 34px;
 }
 
-/* banner style */
+/* banner section style */
 #banner {
   width: 85%;
   margin: 50px auto;
@@ -85,14 +85,38 @@
   left: 56%;
 }
 
-/* companies style */
-#companies{
+/* companies section style */
+#companies {
   width: 85%;
   margin: 100px auto;
 }
-.companies-img-container{
+
+.companies-img-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+}
+
+/* Collection section style */
+#collection {
+  width: 85%;
+  margin: 50px auto;
+}
+
+.collection-title {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card-content {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 18px rgb(120, 120, 133);
 }

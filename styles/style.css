@@ -120,3 +120,35 @@
   border-radius: 10px;
   box-shadow: 10px 10px 18px rgb(120, 120, 133);
 }
+
+/* feature section style */
+#feature {
+  width: 85%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.feature-content {
+  padding-top: 23px;
+  padding-left: 96px;
+}
+
+.feature-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.feature-description {
+  font-size: 15px;
+}
+
+.feature-btn {
+  padding: 10px 30px;
+  background-color: rgb(224, 44, 109);
+  color: white;
+  margin-top: 16px;
+  border: none;
+}

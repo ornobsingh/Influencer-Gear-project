@@ -6,3 +6,34 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+#navbar {
+  width: 85%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-item a {
+  text-decoration: none;
+  margin-right: 34px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+  margin-left: 34px;
+}

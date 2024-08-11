@@ -7,6 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* navbar style */
 #navbar {
   width: 85%;
   margin: 50px auto;
@@ -36,4 +37,50 @@
 .cart-icon {
   font-size: 1.5rem;
   margin-left: 34px;
+}
+
+/* banner style */
+#banner {
+  width: 85%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-content {
+  margin-top: 80px;
+}
+
+.banner-content-title {
+  font-size: 3.1rem;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 16px;
+}
+
+.banner-content-description {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.banner-content-btn {
+  padding: 10px 30px;
+  background-color: rgb(224, 44, 109);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.banner-img {
+  margin-left: 100px;
+}
+
+.banner-circle-img {
+  position: relative;
+}
+
+.banner-camera-img {
+  position: absolute;
+  top: 25%;
+  left: 56%;
 }

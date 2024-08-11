@@ -152,3 +152,38 @@
   margin-top: 16px;
   border: none;
 }
+
+/* footer section style */
+#footer {
+  width: 100%;
+  background-color: #0A0826;
+  color: white;
+}
+
+.footer-container {
+  padding: 50px;
+}
+
+.footer-title,
+.footer-copyright,
+.footer-reserved {
+  text-align: center;
+}
+
+.footer-copyright,
+.footer-reserved {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 17px;
+}
+
+.icon-container i {
+  margin-right: 20px;
+}
